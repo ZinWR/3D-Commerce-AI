@@ -14,7 +14,7 @@ function Shirt() {
     const fullTexture = useTexture(snap.fullDecal);
 
     // ensure applying color smoothly
-    useFrame((state, delta) => easing.dampC(materials.lamber1.colorWrite, snap.color, 0.25, delta));
+    useFrame((state, delta) => easing.dampC(materials.lambert1.color, snap.color, 0.25, delta));
 
     // react renders based on state changes
     const stateString = JSON.stringify(snap);
@@ -44,7 +44,7 @@ function Shirt() {
                         rotation={[0, 0, 0]}
                         scale={0.15}
                         map={logoTexture}
-                        // map-anisotropy={16}
+                        anisotropy={16}
                         depthTest={false}
                         depthWrite={true}
                     />
