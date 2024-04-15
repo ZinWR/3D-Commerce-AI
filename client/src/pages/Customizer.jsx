@@ -60,9 +60,7 @@ const Customizer = () => {
       });
 
       const data = await response.json();
-
       handleDecals(type, `data:image/png;base64,${data.photo}`);
-
     } catch (error) {
       alert(error);
     } finally {
@@ -91,6 +89,7 @@ const Customizer = () => {
       default:
         state.isLogoTexture = true;
         state.isFullTexture = false;
+        break;
     }
 
     // update activeFilterTab after set the state

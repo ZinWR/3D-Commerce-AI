@@ -1,3 +1,17 @@
-# 3D Commerce AI
+# 3D ECommerce AI
 
-A 3D Commerce Website with DallE integrated AI
+A 3D ECommerce Website with DallE integrated AI & Customization
+
+# Tech Stack
+
+React.js,
+Three.js,
+React Three Fiber,
+React Three Drei,
+Vite,
+Tailwind CSS,
+Node.js,
+Express.js,
+OpenAI,
+Framer Motion,
+Valtio

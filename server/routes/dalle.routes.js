@@ -3,12 +3,12 @@ import * as dotenv from 'dotenv';
 // import { Configuration, OpenAIApi } from 'openai';
 import OpenAI from "openai";
 
+dotenv.config();
+const router = express.Router();
+
 const openai = new OpenAI({
     apiKey: process.env.API_KEY
 });
-
-dotenv.config();
-const router = express.Router();
 
 router.route('/').get((req,res) => {
     return res.status(200).json({ message: "Hello from DALL.E ROUTES" });
