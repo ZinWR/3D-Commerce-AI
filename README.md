@@ -8,14 +8,12 @@ A 3D ECommerce Website with DallE integrated AI & Customization
 
 # Tech Stack
 
-React.js,
-Three.js,
-React Three Fiber,
-React Three Drei,
-Vite,
-Tailwind CSS,
-Node.js,
-Express.js,
-OpenAI,
-Framer Motion,
-Valtio
+**Front-end**: React.js, Three.js, React Three Fiber, React Three Drei, Framer Motion, Tailwind CSS
+
+**State-management**: Valtio
+
+**Back-end**: Node.js, Express.js, OpenAI
+
+**Build Tool**: Vite
+
+
