@@ -1,4 +1,6 @@
-![3D Ecommerce Logo](https://github.com/ZinWR/3D-Commerce-AI/assets/97579692/6d3a4bf2-302b-4900-a2f3-1ee1a98456bd)
+<div align="center">
+    <img src="https://github.com/ZinWR/3D-Commerce-AI/assets/97579692/6d3a4bf2-302b-4900-a2f3-1ee1a98456bd" alt="CubeGame Logo" width="300" height="auto">
+</div>
 
 # 3D ECommerce AI
 
